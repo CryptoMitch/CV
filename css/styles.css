@@ -1,33 +1,27 @@
+body{margin: 0; text-align: center;}
 
-    /********************************* TAG SELECTORS *********************************/
+p {font-family: 'Merriweather', serif;color:#38598b;}
+h1 {margin: 0px; color: #e7eaf6; font-family: 'Sacramento', cursive;}
+h2 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
+h3 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
+h4 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
+h5 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
+h6 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
+a {color: black;}
+tr{color: #a2a8d3;}
+.top-container{background-color: #a2a8d3;}
+.second-container{background-color: #38598b; margin-top: 0px;}
+.third-container{background-color: #113f67; margin-top: 0px;}
+.forth-container{background-color: #38598b; margin-top: 0px;}
 
-  body{background-color: #222831;}
+.top-cloud {position: relative; left: 200px;}
 
-  h1 {color: #b55400; }
-  h2 {color: #eeeeee; }
-  h3 {color: #b55400; }
-  h4 {color: #eeeeee; }
-  h5 {color: #eeeeee; }
-  h6 {color: #eeeeee; }
-  p { color: #eeeeee; }
+.bottom-cloud {position: absolute;}
 
-table {color:#eeeeee; }
-ul {color: #eeeeee;}
-a{color: #b55400;}
-
-img:hover { background-color: gold;}
-h1:hover {background-color: gold;}
-a:hover {background-color: gold;}
-
-
-  hr {border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    height: 0px;
-    width:10%;
-
-    /********************************* CLASS SELECTORS *********************************/
-
-.circular
-{border-radius: 50%}
+hr {border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width:10%;
+  margin-bot: 0px;
