@@ -1,30 +1,35 @@
 body{margin: 0; text-align: center;}
 
-p {font-family: 'Merriweather', serif;color:black;}
-h1 {margin: 50px auto 0 auto; color: #66BFBF; font-family: 'Sacramento', cursive; font-size: 6rem; }
-h2 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6; font-size: 2.5rem; font-weight: normal;}
+p {font-family:
+'Montserrat',sans-serif; color:black;}
+h1 {margin: 50px auto 0 auto; color: #019AAE; font-family: 'Merriweather', serif; font-size: 6rem; }
+h2 {margin-top: 0px; font-family: 'Open Sans Condensed', serif; color: #026C7E; font-size: 2.5rem; font-weight: normal;}
 h3 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #66BFBF; font-size: 2.5rem;}
 h4 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
 h5 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
 h6 {margin-top: 0px; font-family: 'Montserrat',sans-serif; color: #e7eaf6;}
 a {color: black;}
-tr{color: #a2a8d3;}
+tr{color: black; font-size: 1.2rem;}
 td{width: 7rem;}
 
-.top-container{background-color: #a2a8d3;}
-.second-container{background-color: #38598b; margin-top: 0px;}
-.third-container{background-color: #113f67; margin: auto; font-size: 1.2rem; line-height: 2rem}
-.forth-container{background-color: #38598b; margin-top: 0px;}
-.last-container{background-color: #white; margin-top: 0px;}
-.favicon-attribution{font-size: 11px}
+.top-container{background-color: #B2EBF2;}
+.second-container{background-color: #B2EBF2; margin-top: 0px;}
+.third-container{background-color: white; margin: auto; font-size: 1.2rem; line-height: 2rem}
+.forth-container{background-color: white; margin-top: 0px;}
+.last-container{background-color: white; margin-top: 0px;}
+.favicon-attribution {font-size: 11px}
 
-.top-cloud {position: relative; left: 200px;}
-.bottom-cloud {position: absolute;}
+.top-cloud {position: relative; right: 0px; style= "width:25%; height:25%}
+.bottom-cloud {position: relative; right: 0px; style= "width:25%; height:25%}
 
 hr {border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  height: 0px;
-  width:10%;
-  margin-bot: 0px;
+  height: 1px;
+  width:10% ;}
+
+.code-img {float:left;}
+.databases-img {float:left;}
+.blockchain-img {float: left;}
+.pantone-img {float:left;}
